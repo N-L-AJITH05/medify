@@ -1,0 +1,58 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:400px ;
+    
+    margin-bottom: -50px;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 15px;
+  }
+  
+  .card-Search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafbfe;
+    width: 150px; /* Adjust the width to fit all cards in a single row */
+    height: 150px;
+    border-radius: 8px;
+    color: #abb6c7;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px; /* Add margin between cards */
+    transition: border 0.3s ease;
+    outline: none;
+  }
+  
+  .card:focus,
+  .card:hover {
+    border: 1px solid #2aa7ff;
+  }
+  
+  .current {
+    border: 1px solid #2aa7ff;
+  }
+  
+  .header {
+    text-align: center;
+    color: #102851;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 0.75px;
+  }
+  
+  .card > p {
+    margin-top: 10px;
+  }

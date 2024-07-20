@@ -1,0 +1,26 @@
+.container-carousel {
+    padding: 5vw;
+    background-color: white;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .wrapper-carousel {
+    display: flex;
+    justify-content: center;
+    height: 440px;
+  }
+  
+  .swiper-slide-active {
+    margin-right: 0px;
+  }
+  
+  .swiper-carousel {
+    width: 100%;
+  }
